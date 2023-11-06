@@ -1,0 +1,175 @@
+/* imports */
+@import url('null.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.table {
+	width: 100%;
+}
+
+.table td {
+	margin: 0 0 10px 0;
+}
+
+.table td:nth-child(2),
+td:nth-child(3) {
+	color: #948e8e;
+}
+
+.container {
+	max-width: 850px;
+	margin: auto;
+	padding: 50px 0;
+}
+
+.info {
+	display: flex;
+	margin-bottom: 24px;
+}
+
+.info-right {
+	margin: 0 0 0 40px;
+}
+
+.info-right h4 {
+	margin: 0 0 10px 0;
+}
+
+.info img {
+	/* margin: 24px 0; */
+	border-radius: 16px;
+	box-shadow: 8px 12px 4px #ccc;
+}
+
+.info-right .info-description {
+	font-style: italic;
+	color: #777777;
+	margin-top: 10px;
+}
+
+.social {
+	margin: 16px 0 24px 0;
+}
+
+.link {
+	display: inline-block;
+	margin-top: 5px;
+	text-decoration: none;
+	color: #777777;
+	transition: all 400ms;
+}
+
+a.link:hover {
+	color: #000;
+	text-decoration: underline;
+	transition: all 700ms;
+}
+
+.bg-yellow {
+	background-color: rgb(250, 243, 120);
+}
+
+.bg-green {
+	background-color: rgba(154, 255, 143, 0.986);
+}
+
+.bg-red {
+	background-color: rgb(255, 190, 201);
+}
+
+.card {
+	margin: 0 0 20px 0;
+	padding: 30px 20px;
+	border-radius: 16px;
+}
+
+.card h2 {
+	margin-bottom: 10px;
+}
+
+ol.list {
+	margin: 0 0 0 20px;
+}
+
+.list li {
+	margin: 0 0 8px 0;
+	color: #6a6767;
+}
+.list-link li {
+	border-bottom: 1px solid #6e6969;
+	margin: 0 0 8px 0;
+}
+
+.list-link a {
+	display: inline-block;
+	text-decoration: inherit;
+	color: #7a6f6f;
+	transition: all 200ms;
+}
+
+.list-link a:hover {
+	color: #252525;
+	transition: all 500ms;
+}
+
+.form-group label {
+	display: block;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+.form-group label {
+	display: block;
+	color: #6a6767;
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	outline: none;
+	padding: 10px 0 10px;
+	margin-bottom: 10px;
+	resize: none;
+}
+
+.row {
+	display: flex;
+	margin: 20px 0;
+}
+
+.row > .form-group {
+	width: 50%;
+}
+
+.row > .form-group:nth-child(1) {
+	margin: 0 24px 0 0;
+}
+
+.submit-btn {
+	background-color: #141414;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	transition: all 500ms;
+	border-radius: 5px;
+}
+
+.submit-btn:hover {
+	background-color: #ffffff;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 50px;
+	transition: all 1s;
+}

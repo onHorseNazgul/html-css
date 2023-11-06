@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="info">
+            <img width="190" height="195"
+                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=2960&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="avatar" class="avatar">
+            <div class="info-right">
+                <h1>Владилен Минин</h1>
+                <div class="info-description">
+                    <p>Я основатель одноименного YouTube канала</p>
+                    <p>Я люблю путешествовать, заниматься спортом и программировать</p>
+                </div>
+                <div class="social">
+                    <h4>Мои социальные сети</h4>
+                    <a href="#" class="link" target="_blank">Instagram</a>
+                    |
+                    <a href="#" class="link" target="_blank">Youtube</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Блоггер</li>
+                <li>Быстрая езда на машинах</li>
+                <li>Спорт: ММА, лыжи</li>
+                <li>Путешествия</li>
+            </ol>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tbody>
+                    <td>LPTracker</td>
+                    <td>Frontend</td>
+                    <td>2015 - 2016</td>
+                </tbody>
+                <tbody>
+                    <td>EPAM</td>
+                    <td>Software Engineer</td>
+                    <td>2016 - 2017</td>
+                </tbody>
+                <tbody>
+                    <td>Software Outsorcing Services</td>
+                    <td>Lead Frontend</td>
+                    <td>2017 - 2019</td>
+                </tbody>
+                <tbody>
+                    <td>YouTube</td>
+                    <td>Blogger</td>
+                    <td>2019 - now</td>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-red">
+            <h2>YouTube Курсы</h2>
+            <ul class="list-link">
+                <li>
+                    <a class="lessons-link" href="https://youtu.be/fcMcf_4PjfI?si=PseaWGrA4-g9dDWt" target="_blank">
+                        JavaScript c Нуля - Курс для начинающих с практикой [2023]
+                    </a>
+                </li>
+                <li>
+                    <a class="lessons-link" href="https://youtu.be/OJ16BaPC6VI?si=mTT-i5UejYWzRD3B" target="_blank">
+                        React и TypeScript - Быстрый Курс [2022]
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+
+            <form action="/" class="contact-form">
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="user-name">
+                            Введите ваше имя:
+                        </label>
+                        <input type="text" id="user-name" placeholder="Введите ваше имя..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-email">
+                            Введите ваш email:
+                        </label>
+                        <input type="email" id="user-email" placeholder="Введите ваш email..." required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-message">
+                        Введите ваше обращение:
+                    </label>
+                    <textarea id="user-message" placeholder="Напишите здесь свое сообщение подробнее..."></textarea>
+                </div>
+                <button class="submit-btn" type="submit">Отправить</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
